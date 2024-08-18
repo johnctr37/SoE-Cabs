@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PaymentConfirmation</class>
+ <widget class="QDialog" name="PaymentConfirmation">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>360</width>
+    <height>250</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Booking Confirmation</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton {
+  background-color: #1E90FF;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+QPushButton:hover {
+  background-color: rgb(166, 98, 200);
+  font-style: italic;
+  border: 2px solid white;
+  color:black;
+}
+
+QPushButton:pressed {
+  background-color: #008080;
+  font-weight: bold;
+  color: white;
+  border: 2px solid white;
+}
+</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>80</y>
+     <width>221</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Confirm your booking?</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>130</y>
+     <width>195</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item alignment="Qt::AlignVCenter">
+     <widget class="QPushButton" name="pushButton_confirmation_yes">
+      <property name="text">
+       <string>YES</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_confirmation_no">
+      <property name="text">
+       <string>NO</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

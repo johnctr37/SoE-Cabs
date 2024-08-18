@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/resources">
+        <file>img/admin.jpg</file>
+        <file>img/customer.jpg</file>
+        <file>img/main-window.jpg</file>
+        <file>files/BookingRecord.txt</file>
+        <file>files/cab_status.txt</file>
+        <file>img/rating.jpg</file>
+        <file>img/afterrating.jpg</file>
+        <file>img/bookingimg.jpg</file>
+        <file>img/avatar.jpg</file>
+    </qresource>
+</RCC>

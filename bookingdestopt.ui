@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>bookingdestopt</class>
+ <widget class="QDialog" name="bookingdestopt">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>628</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Booking</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QRadioButton{
+    
+	color: rgb(74, 3, 255);
+  font:bold;
+}
+QRadioButton::hover{
+   color:black;
+}
+QRadioButton::pressed{
+   color:black;
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <widget class="QLabel" name="label_bookingimg">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Booking from Damodar Hostel to - </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="Shipra">
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Shipra</string>
+       </property>
+       <property name="icon">
+        <iconset theme="zoom-in">
+         <normaloff>.</normaloff>.</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="Mandavi">
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>      Mandavi</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="Jhelum">
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>      Jhelum</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="Periyar">
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>      Periyar</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Name of Passenger</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="passengername"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPushButton" name="bookbutton">
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+  background-color: #1E90FF;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+QPushButton:hover {
+  background-color: rgb(166, 98, 200);
+  font-style: italic;
+  border: 2px solid white;
+  color:black;
+}
+
+QPushButton:pressed {
+  background-color: #008080;
+  font-weight: bold;
+  color: white;
+  border: 2px solid white;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>BOOK</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="farelab">
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Fare -</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPlainTextEdit" name="fareop">
+     <property name="styleSheet">
+      <string notr="true">QPlainTextEdit {
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial;
+}
+
+
+
+
+</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="distancelab">
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Distance -</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPlainTextEdit" name="distanceop">
+     <property name="styleSheet">
+      <string notr="true">QPlainTextEdit {
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial;
+}
+
+
+
+
+</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushbutton_pay">
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+  background-color: #1E90FF;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+QPushButton:hover {
+  background-color: rgb(255, 232, 115);
+  font-style: italic;
+  border: 2px solid white;
+  color:black;
+}
+
+QPushButton:pressed {
+  background-color: #008080;
+  font-weight: bold;
+font-color: black;
+  color: white;
+  border: 2px solid white;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>PAY</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
